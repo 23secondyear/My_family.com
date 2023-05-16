@@ -4,7 +4,97 @@
 	<title>My Family</title>
 	<link rel="stylesheet" href="style.css">
 	<style>
-		
+		body {
+    font-family: Arial, sans-serif;
+    background-color:pink;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+h2 {
+    font-size: 30px;
+    color: #333;
+    margin-top: 0;
+}
+
+p {
+    font-size: 20px;
+    line-height: 1.5;
+    color: #666;
+}
+
+.image1{
+    width: auto;
+    height: 600px;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+ h2, h3 {
+    color: #333;
+    margin-top: 30px;
+}
+p {
+    line-height: 1.5;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+/* Animation */
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+}
+
+.pulse {
+    animation: pulse 1.5s ease-in-out infinite;
+}
+
+@keyframes slide-in {
+    0% { transform: translateX(-100%); opacity: 0; }
+    100% { transform: translateX(0); opacity: 1; }
+}
+
+.slide-in {
+    animation: slide-in 1s ease forwards;
+}
 	</style>
 </head>
 <body>
